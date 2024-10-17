@@ -5,214 +5,261 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>IoTA Platform | Specifications</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>IoTA Platform | Specifications</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Wrapper -->
+<div id="wrapper">
 
-				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
-						<a href="index.html" class="logo">
-							<strong>I●TA</strong> <span> platform</span>
-						</a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+    <!-- Header -->
+    <!-- Note: The "styleN" class below should match that of the banner element. -->
+    <header id="header" class="alt style1">
+        <a href="index.html" class="logo">
+            <strong>I●TA</strong> <span> platform</span>
+        </a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="new.html">Specifications</a></li>
-							<li><a href="extension-boards.html">Extension Boards</a></li>
-							<li><a href="firmware.html">Firmware</a></li>
-							<li><a href="certification.html">Certification</a></li>
-							<li><a href="buy.html">Buy</a></li>
-							<li><a href="support.html">Support</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-						</ul>
-					</nav>
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new.html">Specifications</a></li>
+            <li><a href="extension-boards.html">Extension Boards</a></li>
+            <li><a href="firmware.html">Firmware</a></li>
+            <li><a href="certification.html">Certification</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <ul class="actions stacked">
+            <li><a href="#" class="button primary fit">Get Started</a></li>
+        </ul>
+    </nav>
 
-				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
-						<div class="inner">
-							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h1>Specifications</h1>
-							</header>
-							<div class="content">
-								<p>I●TA is built around Nordic's <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160 SiC</a> and <a href="https://www.nordicsemi.com/Products/nRF54L15">nRF54L15 SoC</a></p>
-							</div>
-						</div>
-					</section>
+    <!-- Banner -->
+    <!-- Note: The "styleN" class below should match that of the header element. -->
+    <section id="banner" class="style1">
+        <div class="inner">
+            <span class="image">
+                <img src="images/specifications.jpg" alt=""/>
+            </span>
+            <header class="major">
+                <h1>Specifications</h1>
+            </header>
+            <div class="content">
+                <p>I●TA is built around Nordic's <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160 SiP</a>
+                    and <a href="https://www.nordicsemi.com/Products/nRF52840">nRF52840 SoC</a></p>
+            </div>
+        </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Main -->
+    <div id="main">
 
-						<!-- Microcontroller -->
-							<section id="microcontroller">
-								<div class="inner">
-									<header class="major">
-										<h2>Microcontroller</h2>
-									</header>
-									<p>Using <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160</a> allows I●TA to deliver:</p>
-									<div class="row">
-										<div class="col-6 col-12-small">
-											<h3>Arm® Cortex®-M33</h3>
-											<p>
-												<ul>
-													<li>Data watchpoint and trace (DWT), embedded trace macrocell (ETM), and instrumentation trace macrocell (ITM)</li>
-													<li>Serial wire debug (SWD)</li>
-													<li>Trace port</li>
-													<li>1 MB flash</li>
-													<li>256 kB low leakage RAM</li>
-													<li>Arm TrustZone®</li>
-													<li>Arm CryptoCell™ 310</li>
-													<li>Up to 4x SPI master/slave with EasyDMA</li>
-													<li>Up to 4x I2C compatible two-wire master/slave with EasyDMA</li>
-													<li>Up to 4x UART (CTS/RTS) with EasyDMA</li>
-													<li>I2S with EasyDMA</li>
-												</ul>
-											</p>
-										</div>
-										<div class="col-6 col-12-small">
-											<h3>Other</h3>
-											<p>
-												<ul>
-													<li>Digital microphone interface (PDM) with EasyDMA</li>
-													<li>4x pulse width modulator (PWM) unit with EasyDMA</li>
-													<li>12-bit, 200 ksps ADC with EasyDMA - eight configurable channels with programmable gain</li>
-													<li>3x 32-bit timer with counter mode</li>
-													<li>2x real-time counter (RTC)</li>
-													<li>Programmable peripheral interconnect (PPI)</li>
-												</ul>
-											</p>
-										</div>
-									</div>
-								</div>
-							</section>
+        <!-- Microcontroller -->
+        <section id="microcontroller">
+            <div class="inner">
+                <header class="major">
+                    <h2>Microcontroller</h2>
+                </header>
+                <p>Using <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160</a> allows I●TA to deliver:</p>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <h3>Arm® Cortex®-M33</h3>
+                        <p>
+                        <ul>
+                            <li>Data watchpoint and trace (DWT), embedded trace macrocell (ETM), and instrumentation
+                                trace macrocell (ITM)
+                            </li>
+                            <li>Serial wire debug (SWD)</li>
+                            <li>Trace port</li>
+                            <li>1 MB flash</li>
+                            <li>256 kB low leakage RAM</li>
+                            <li>Arm TrustZone®</li>
+                            <li>Arm CryptoCell™ 310</li>
+                            <li>Up to 4x SPI master/slave with EasyDMA</li>
+                            <li>Up to 4x I2C compatible two-wire master/slave with EasyDMA</li>
+                            <li>Up to 4x UART (CTS/RTS) with EasyDMA</li>
+                            <li>I2S with EasyDMA</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <h3>Other</h3>
+                        <p>
+                        <ul>
+                            <li>Digital microphone interface (PDM) with EasyDMA</li>
+                            <li>4x pulse width modulator (PWM) unit with EasyDMA</li>
+                            <li>12-bit, 200 ksps ADC with EasyDMA - eight configurable channels with programmable gain
+                            </li>
+                            <li>3x 32-bit timer with counter mode</li>
+                            <li>2x real-time counter (RTC)</li>
+                            <li>Programmable peripheral interconnect (PPI)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Modem -->
-						<section id="modem">
-							<div class="inner">
-								<header class="major">
-									<h2>LTE Modem</h2>
-								</header>
-								<p>The LTE modem inside <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160</a> packages:</p>
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<h3>Features</h3>
-										<p>
-											<ul>
-												<li>Transceiver and baseband</li>
-												<li>3GPP LTE release 13 Cat-M1 and Cat-NB1 compliant
-													<ul>
-														<li>3GPP release 13 coverage enhancement</li>
-													</ul>
-												</li>
-												<li>3GPP LTE release 14 Cat-NB2 compliant</li>
-												<li>GPS receiver
-													<ul>
-														<li>GPS L1 C/A supported</li>
-														<li>QZSS L1 C/A supported</li>
-													</ul>
-												</li>
-												<li>Power saving features: DRX, eDRX, PSM</li>
-												<li>IP v4/v6 stack</li>
-												<li>Secure socket (TLS/DTLS) API</li>
-											</ul>
-										</p>
-									</div>
-									<div class="col-6 col-12-small">
-										<h3>Bands</h3>
-										<p>
-											<ul>
-												<li>Cat-M1: B1, B2, B3, B4, B5, B8, B12, B13, B18, B19, B20, B25, B26, B28, B66</li>
-												<li>Cat-NB1/NB2: B1, B2, B3, B4, B5, B8, B12, B13, B17, B19, B20, B25, B26, B28, B66</li>
-											</ul>
-										</p>
-									</div>
-								</div>
-							</div>
-						</section>
+        <!-- Modem -->
+        <section id="modem">
+            <div class="inner">
+                <header class="major">
+                    <h2>LTE Modem</h2>
+                </header>
+                <p>The LTE modem inside <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160</a> packages:</p>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <h3>Features</h3>
+                        <p>
+                        <ul>
+                            <li>Transceiver and baseband</li>
+                            <li>3GPP LTE release 13 Cat-M1 and Cat-NB1 compliant
+                                <ul>
+                                    <li>3GPP release 13 coverage enhancement</li>
+                                </ul>
+                            </li>
+                            <li>3GPP LTE release 14 Cat-NB2 compliant</li>
+                            <li>GPS receiver
+                                <ul>
+                                    <li>GPS L1 C/A supported</li>
+                                    <li>QZSS L1 C/A supported</li>
+                                </ul>
+                            </li>
+                            <li>Power saving features: DRX, eDRX, PSM</li>
+                            <li>IP v4/v6 stack</li>
+                            <li>Secure socket (TLS/DTLS) API</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <h3>Bands</h3>
+                        <p>
+                        <ul>
+                            <li>Cat-M1: B1, B2, B3, B4, B5, B8, B12, B13, B18, B19, B20, B25, B26, B28, B66</li>
+                            <li>Cat-NB1/NB2: B1, B2, B3, B4, B5, B8, B12, B13, B17, B19, B20, B25, B26, B28, B66</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Bluetooth -->
-							<section id="bluetooth">
-								<div class="inner">
-									<header class="major">
-										<h2>Bluetooth</h2>
-									</header>
-									<p>By including <a href="https://www.nordicsemi.com/Products/nRF54L15">nRF54L15</a> I●TA adds the following capabilities:</p>
-									<div class="row">
-										<div class="col-6 col-12-small">
-											<h3>Connectivity</h3>
-											<p>
-												<ul>
-													<li>Bluetooth Low Energy</li>
-													<li>Bluetooth mesh</li>
-													<li>Thread</li>
-													<li>Matter</li>
-													<li>TrustZone isolation, side-channel protection, and tamper detection</li>
-												</ul>
-											</p>
-										</div>
-										<div class="col-6 col-12-small">
-											<h3>Processor</h3>
-											<p>
-											<ul>
-												<li>128 MHz Arm Cortex-M33 processor</li>
-												<li>1.5 MB non-volatile memory</li>
-												<li>256 KB RAM</li>
-												<li>Global RTC</li>
-												<li>14-bit ADC</li>
-											</ul>
-											</p>
-										</div>
-									</div>
-								</div>
-							</section>
-					</div>
+        <!-- Bluetooth -->
+        <section id="bluetooth">
+            <div class="inner">
+                <header class="major">
+                    <h2>Bluetooth</h2>
+                </header>
+                <p>By including <a href="https://www.nordicsemi.com/Products/nRF52840">nRF52840</a> I●TA adds the
+                    following capabilities:</p>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <h3>Radio</h3>
+                        <p>
+                        <ul>
+                            <li>2.4 GHz Transceiver</li>
+                            <li>2 Mbps, 1 Mbps, Long Range</li>
+                            <li>Bluetooth Low Energy, Bluetooth mesh</li>
+                            <li>ANT, 802.15.4, Thread, Zigbee</li>
+                            <li>NFC-A</li>
+                            <li>+8 dBm TX Power</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <h3>MCU</h3>
+                        <p>
+                        <ul>
+                            <li>64 MHz Cortex-M4 with FPU</li>
+                            <li>1 MB Flash, 256 KB RAM</li>
+                            <li>PWM</li>
+                            <li>12-bit ADC</li>
+                            <li>USB 2.0</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; 2024 Artware</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+        <!-- Periphery -->
+        <section id="periphery">
+            <div class="inner">
+                <header class="major">
+                    <h2>Periphery</h2>
+                </header>
+                <p>I●TA also packs the following periphery:</p>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <h3>Periphery</h3>
+                        <p>
+                        <ul>
+                            <li>Low Power 3-axis accelerometer</li>
+                            <li>LEDs</li>
+                            <li>General Purpose Button</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <h3>Power</h3>
+                        <p>
+                        <ul>
+                            <li>Battery voltage reading</li>
+                            <li>Can be powered from any combination of USB, Battery, or VIN (e.g. solar panel)</li>
+                            <li>Nominal Operating Input voltage: 4.35V - 5.5V</li>
+                            <li>Battery voltage: 3.2V - 4.2V</li>
+                            <li>Over-voltage protection</li>
+                            <li>Under-voltage protection</li>
+                            <li>Low-noise, low power, switching power supply, with output up to 1000mA</li>
+                            <li>USB-friendly Li-Ion/LiPolymer charger with MPPT</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			</div>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; 2024 Artware</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
 
-	</body>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
