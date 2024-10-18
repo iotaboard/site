@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>IoTA Platform | Extension</title>
+    <title>IoTA Platform | Firmware</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <!-- Note: The "styleN" class below should match that of the banner element. -->
-    <header id="header" class="alt style2">
+    <header id="header" class="alt style3">
         <a href="index.html" class="logo">
             <strong>I●TA</strong> <span>Platform</span>
         </a>
@@ -48,22 +48,19 @@
 
     <!-- Banner -->
     <!-- Note: The "styleN" class below should match that of the header element. -->
-    <section id="banner" class="style2">
+    <section id="banner" class="style3">
         <div class="inner">
 			<span class="image">
-				<img src="images/boards.jpg" alt=""/>
+				<img src="images/firmware.jpg" alt=""/>
 			</span>
             <header class="major">
-                <h1>Extension boards</h1>
+                <h1>Firmware</h1>
             </header>
             <div class="content">
-                <p>Extension connectors pinout</p>
+                <p>Firmware</p>
             </div>
             <div class="content">
-                <p>Listing of extension boards</p>
-                <ul class="actions">
-                    <li><a href="#boards" class="button next scrolly">See boards</a></li>
-                </ul>
+                <p>Development resources</p>
             </div>
         </div>
     </section>
@@ -71,45 +68,42 @@
     <!-- Main -->
     <div id="main">
 
-        <section id="connectors" class="spotlights">
-            <!-- Connectors -->
+        <section class="spotlights">
             <section>
-                <a href="images/pinout.png" title="IoTA extension connectors pinout" class="image">
-                    <img src="images/pinout.png" alt="" data-position="center center"/>
-                </a>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h2>Extension connectors</h2>
+                            <h2>TraQ firmware</h2>
                         </header>
-                        <p>I●TA has two extension connectors and allows easy integration in your design.
-                            You can connect extra components to the extension pins</p>
+                        <p>Firmware that turns I●TA info asset tracker, connected to our <a href="https://pawtraq.com">TraQ Cloud</a></p>
                         <ul class="actions">
-                            <li><a download="iota-pinout.png" href="images/pinout.png" class="button">Download
-                                diagram</a></li>
+                            <li><a href="https://github.com/iotaboard/firmware/releases?q=traq&expanded=true" class="button">GitHub</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <!-- Boards -->
-            <section id="boards">
-                <a href="buy.html" class="image">
-                    <img src="images/usb-board.jpg" alt="" data-position="top center"/>
-                </a>
+            <section>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h2>USB Extension Board</h2>
+                            <h2>Bluetooth firmware</h2>
                         </header>
-                        <p>USB extension board can help with:
-                        <ul>
-                            <li>powering I●TA from computer or external power supply</li>
-                            <li>debugging via serial interface</li>
-                            <li>provides USB connectivity to the board</li>
-                        </ul>
-                        </p>
+                        <p>USB and Bluetooth console firmware for debugging purposes</p>
                         <ul class="actions">
-                            <li><a href="buy.html" class="button">Buy</a></li>
+                            <li><a href="https://github.com/iotaboard/firmware/releases?q=connectivity&expanded=true" class="button">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>LTE modem firmware</h2>
+                        </header>
+                        <p>Original nRF9160 modem firmware</p>
+                        <ul class="actions">
+                            <li><a href="https://github.com/iotaboard/firmware/releases?q=modem&expanded=true" class="button">GitHub</a></li>
                         </ul>
                     </div>
                 </div>
